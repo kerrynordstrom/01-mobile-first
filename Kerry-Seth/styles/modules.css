@@ -1,15 +1,12 @@
-
 .heading-group-h1, .main-nav {
   background-color: #ffeaaa;
   padding: 10px;
-
 }
 
 .main-nav ul {
   margin-top: 0;
   margin-left: 0.5vw;
   padding: 0;
-
 }
 
 .main-nav ul li {
@@ -20,7 +17,15 @@
 
 .icon-menu {
   display: none;
+}
 
+.byline {
+  color: gray;
+}
+
+.byline > address, .byline > time {
+  color: gray;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 640px) {
@@ -29,18 +34,20 @@
     position: absolute;
     top: 1vh;
     right: 3vw;
+    font-size: 300%;
   }
   .main-nav ul {
     display: none;
   }
 
-  /*.icon-menu:hover + ul {
+  .icon-menu:hover + ul {
     display: block;
   }
 
-  .icon-menu:hover + li {
+  .main-nav:hover li {
     display: block;
-  }*/
+    border-bottom: 1px solid gray;
+  }
 
   .clearfix:after {
     content: "";
@@ -54,10 +61,7 @@
   max-width: 100%;
 }
 
-.byline {
-  color: gray;
-  display: inline-block;
-}
+
 
 .pull-right:nth-child(2), .article-body p:nth-child(2) {
   clear: left;

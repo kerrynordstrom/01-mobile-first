@@ -3,31 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- : Add a meta tag to properly set the viewport and initial scale -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
   <meta name="viewport" content="width=640", initial-scale="1">
-
-  <!-- : Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
   <link rel="stylesheet" href="vendor/styles/normalize.css">
-
-  <!-- : Link in the provided styles/icons.css file so that you can use icon fonts -->
   <link rel="stylesheet" href="styles/icons.css">
-
-  <!-- : Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/modules.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- We load normalize.css to give a baseline setting for the browser to then load more specific styling.  We then load icons to bring in third party base styling.  We then load our default styling via base.css, our page structure via layout.css, and our modular design via modules.css.  They are in this order based on level of impact on page layout. -->
-
-  <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 </head>
 <body>
-  <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!-- We tried to figure it out but really aren't sure how it works ¯\_(ツ)_/¯ -->
 
     <section class="heading-group-h1">
       <h1>
@@ -36,9 +27,7 @@
       <h2>The shocking power of static pages</h2>
     </section>
     <nav class="main-nav">
-      <!-- : Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
       <div class="icon-menu"></div>
-
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
@@ -52,9 +41,8 @@
       <article class="clearfix" data-category="bacon">
           <header>
             <h1>Bacon Ipsum</h1>
-            <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
             <div class="byline">
-              By <address><a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a></address>
+              By <address><strong><a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a></strong></address>
               published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
             </div>
           </header>
@@ -96,7 +84,6 @@
     </section>
   </main>
   <footer>
-    <!-- REVIEW: Note the use of &copy; below, and take a moment to look up how special characters are displayed in HTML if you are not familiar with them. -->
     &copy; 2017 Code Fellows | Static Blog | Happy Ipsum!
   </footer>
 </body>

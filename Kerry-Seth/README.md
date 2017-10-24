@@ -1,3 +1,36 @@
+## Documentation  
+
+
+```md
+# Project Name
+
+**Author**: Kerry Nordstrom and Seth Donohue
+**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+
+## Overview
+<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+
+<!-- We are a provider of non-denominational Ipsum for creatures from all walks of life.  Our application currently provides three Ipsum and contains links to our About Us, GitHub, and Twitter pages. -->
+
+## Getting Started
+<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+
+## Architecture
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+<!-- This application uses HTML5 and CSS3 notation as well as an Icomoon font library which is referenced in the icons.css file and linked in our index.html file.  We've optimized the interface for a mobile viewport, utilizing a hamburger menu icon to toggle our navigation links. -->
+
+## Change Log
+<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+
+10-24-2017 1:28pm - Application now has a fully-functional hamburger menu with block displayed links when in mobile viewport of less than 640px.
+
+## Credits and Collaborations
+<!-- Normalize.css from https://necolas.github.io/normalize.css/
+		Pixel Perfect Icon Solutions from https://icomoon.io/
+-->
+
+
 ![CF](https://i.imgur.com/7v5ASc8.png)  Lab 01: Mobile First
 =======
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
@@ -143,30 +176,5 @@ _Your repository must include:_
 
 ---
 
-## Documentation  
-_Your README.md must include:_
-
-```md
-# Project Name
-
-**Author**: Kerry Nordstrom and Seth Donohue
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
-
-## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
-
-## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
-
-## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
-
-## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
-
-## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 -->
 ```

@@ -1,3 +1,11 @@
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 .heading-group-h1, .main-nav {
   background-color: #ffeaaa;
   padding: 10px;
@@ -49,20 +57,9 @@
     border-bottom: 1px solid gray;
   }
 
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 }
-
-.article-body img {
-  float: left;
-  max-width: 100%;
-}
-
-
-
-.pull-right:nth-child(2), .article-body p:nth-child(2) {
-  clear: left;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
